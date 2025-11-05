@@ -1,0 +1,26 @@
+/* Import font dulu, biar kebaca sebelum Tailwind apply style */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap');
+
+/* Tailwind directives (wajib urut di atas) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌸 Global styles */
+body {
+  @apply text-gray-800;
+  font-family: 'Outfit', sans-serif;
+  background: linear-gradient(
+    180deg,
+    #FFD5D5 0%,
+    #FFF7F7 40%,
+    #EAF7EE 80%,
+    #59AC77 100%
+  );
+}
+
+/* ✨ Hover effect lembut */
+.hover-soft:hover {
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+}
