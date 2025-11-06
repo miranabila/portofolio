@@ -5,6 +5,9 @@ import { Footer } from "@/components/Footer";
 export const metadata = {
   title: "Mira Nabila | Portfolio",
   description: "Web Programmer | Next.js, Django, Cloud, and UI/UX Enthusiast",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
