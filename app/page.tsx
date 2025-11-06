@@ -13,7 +13,7 @@ export default function HomePage() {
         transition={{ duration: 0.7 }}
       >
         <Image
-          src="/mira-photo.jpg"
+          src="/profile-mira.jpg"
           alt="Mira Nabila"
           width={150}
           height={150}
