@@ -64,9 +64,10 @@ export default function AboutPage() {
           <ul className="grid grid-cols-2 gap-2 text-gray-700 list-disc pl-5">
             <li>Next.js, React.js, TypeScript, Tailwind CSS</li>
             <li>Django, Python, REST API</li>
+            <li>Laravel, PHP</li>
             <li>PostgreSQL, SQL</li>
             <li>GCP, AWS</li>
-            <li>Docker, Linux, Git</li>
+            <li>Docker, Linux, Git, Bash/Shell</li>
           </ul>
         </MotionDiv>
 

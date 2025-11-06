@@ -7,7 +7,11 @@ export const metadata = {
   description: "Web Programmer | Next.js, Django, Cloud, and UI/UX Enthusiast",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body className="font-sans">

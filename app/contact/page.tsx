@@ -86,7 +86,7 @@ export default function ContactPage() {
           Crafted with <Heart className="inline w-4 h-4 text-accent mx-1" /> by
           Mira Nabila
         </p>
-        <div className="mt-5 bg-gradient-to-r from-[#FFD5D5] via-white to-[#59AC77]/50 h-1 rounded-full w-1/2 mx-auto" />
+        {/* <div className="mt-5 bg-gradient-to-r from-[#FFD5D5] via-white to-[#59AC77]/50 h-1 rounded-full w-1/2 mx-auto" /> */}
       </motion.div>
     </section>
   );

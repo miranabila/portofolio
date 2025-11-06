@@ -96,12 +96,12 @@ export default function ExperiencePage() {
       </div>
 
       {/* Bottom accent */}
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4 }}
         className="mt-10 bg-gradient-to-r from-[#FFD5D5] via-white to-[#59AC77]/40 h-1 rounded-full"
-      />
+      /> */}
     </section>
   );
 }
